@@ -1,0 +1,43 @@
+# === Общие ===
+.DS_Store
+.env
+*.log
+*.bak
+*.swp
+*.tmp
+
+# === Node.js / React (frontend) ===
+node_modules/
+dist/
+build/
+
+# === Python / Django / FastAPI ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.egg-info/
+.env
+.venv/
+venv/
+migrations/
+
+# === Go / Gin (backend) ===
+*.exe
+*.out
+*.test
+*.log
+coverage.out
+bin/
+vendor/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+
+# === System files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
